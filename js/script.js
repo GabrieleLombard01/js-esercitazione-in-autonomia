@@ -22,4 +22,14 @@ const userKm = document.getElementById("kms");
 const userDiscount = document.getElementById("discount");
 const userBtn = document.getElementById("btn-calc");
 
-//
+//PRENDO GLI ELEMENTI DEL TICKET:
+const tickName = document.getElementById("passenger-name");
+const tickRate = document.getElementById("rate");
+const tickCab = document.getElementById("cab");
+const tickPnr = document.getElementById("pnr");
+const tickPrice = document.getElementById("price");
+
+//IN ASCOLTO SUL CALC BUTTON:
+userBtn.addEventListener('click' function(){
+
+}
