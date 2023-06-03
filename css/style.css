@@ -1,0 +1,30 @@
+/*CSS reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+/*Custom properties*/
+
+/*Generics*/
+body{
+    background-image: url(../img/background_body.jpg);
+    background-size: cover;
+}
+/*Utilties*/
+.bg_cont{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+}
+.brown-color{
+    color: #8c7145;
+}
+/*Ticket-section*/
+section .card{
+    background-image: url(../img/ticketbg.jpg);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
